@@ -2,10 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-primary" });
 
 export const metadata: Metadata = {
   title: "Shilpa Kundumattathil Sivarajan | Full Stack Software Engineer",
@@ -23,21 +22,6 @@ export const metadata: Metadata = {
     "Perth",
   ],
   authors: [{ name: "Shilpa Kundumattathil Sivarajan" }],
-  openGraph: {
-    title:
-      "Shilpa Kundumattathil Sivarajan | Frontend Developer | Full Stack Software Developer",
-    description:
-      "Full Stack Software Engineer(frontend heavy) with 14+ years of experience in React, Next.js, TypeScript, Material UI, GraphQL, and Java.",
-    type: "website",
-    locale: "en_AU",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "Shilpa Kundumattathil Sivarajan | Frontend Developer | Full Stack Software Developer",
-    description:
-      "Full Stack Software Engineer(frontend heavy) with 14+ years of experience in React, Next.js, TypeScript, Material UI, GraphQL, and Java.",
-  },
   icons: {
     icon: [
       {
@@ -63,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="dark">
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
         <Analytics />
