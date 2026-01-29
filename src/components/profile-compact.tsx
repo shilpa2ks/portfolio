@@ -32,8 +32,7 @@ export function ProfileCompact() {
         <div className="flex-1">
           <p className="text-lg font-semibold text-foreground">{displayName}</p>
           <span className="mt-1 inline-flex rounded-full bg-muted/60 px-0 py-1 text-xs font-medium text-muted-foreground">
-            <div>{portfolioData.role}</div>
-            <div>{portfolioData.roleExtended}</div>
+            {portfolioData.role}
           </span>
         </div>
         <div className="hidden sm:flex items-center">

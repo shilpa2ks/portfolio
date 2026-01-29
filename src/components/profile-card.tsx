@@ -46,7 +46,7 @@ export function ProfileCard() {
             {displayName}
           </h2>
           <span className="mt-2 rounded-full bg-muted/60 px-0 py-1 text-xs font-medium text-muted-foreground">
-            <div>{portfolioData.role}</div>
+            <div>{portfolioData.roleShort}</div>
             <div>{portfolioData.roleExtended}</div>
           </span>
         </div>

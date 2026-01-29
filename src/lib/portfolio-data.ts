@@ -1,7 +1,8 @@
 export const portfolioData = {
   name: "Shilpa Kundumattathil Sivarajan",
   displayName: "Shilpa Kundumattathil Sivarajan",
-  role: "Full Stack Software Engineer",
+  role: "Full Stack Software Engineer (Frontend-leaning)",
+  roleShort: "Full Stack Software Engineer",
   roleExtended: "(Frontend-leaning)",
   tagline: "React, Next.js, TypeScript, GraphQL, Java",
   location: "Perth, Australia",
