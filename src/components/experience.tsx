@@ -27,7 +27,7 @@ export function Experience() {
                 <h4 className="text-base font-semibold text-foreground">
                   {exp.role}
                 </h4>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm font-semibold text-foreground/70">
                   {exp.company} - {exp.location}
                 </p>
                 <ul className="mt-3 space-y-2 text-sm text-muted-foreground">

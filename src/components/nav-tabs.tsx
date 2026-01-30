@@ -23,7 +23,8 @@ export function NavTabs({
     <nav
       className={cn(
         "flex items-center gap-4 rounded-full border border-border/60 bg-card/80 px-5 py-2 shadow-[0_12px_30px_-22px_rgba(0,0,0,0.8)] backdrop-blur",
-        compact && "gap-3 px-3 py-1.5",
+        compact &&
+          "gap-3 px-3 py-1.5 border-border/80 bg-background/95 shadow-[0_12px_30px_-18px_rgba(0,0,0,0.9)]",
         className
       )}
     >
